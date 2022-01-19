@@ -119,6 +119,7 @@ hr {
     border: 0;
     padding: 24px 15px;
     margin: 72px auto;
+    cursor: pointer;
 }
 
 .more_info {
@@ -132,4 +133,62 @@ hr {
     text-transform: uppercase;
     margin-bottom: 5px;
     color: #FFFFFF;
+}
+
+.expect {
+    width: 1922px;
+    height: 607px;
+    left: 0px;
+    top: 0px;
+    background: #EFEFEF;
+    padding: 85px 0 75px 0;
+}
+
+.expect .expect_header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.expect .expect_line {
+    width: 220px;
+    height: 4px;
+    left: 851px;
+    top: 129px;
+    margin: 0 auto;
+    margin-top: 18px;
+    background: #F9BF3B;
+}
+
+.expect .expect_desc {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    margin-top: 18px;
+    align-items: center;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.expect .expect_cell {
+    display: inline-block;
+    vertical-align: top;
+    margin: 45px 24px 0 0;
+}
+
+.expect .expect_text {
+    text-align: center;
+    width: 339px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 26px;
 }
