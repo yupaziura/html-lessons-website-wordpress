@@ -144,6 +144,11 @@ hr {
     padding: 85px 0 75px 0;
 }
 
+.expect .expect_grid {
+    display: flex;
+    justify-content: space-between;
+}
+
 .expect .expect_header {
     font-family: Roboto;
     font-style: normal;
@@ -176,7 +181,6 @@ hr {
 }
 
 .expect .expect_cell {
-    display: inline-block;
     vertical-align: top;
     margin: 45px 24px 0 0;
 }
