@@ -137,7 +137,7 @@ hr {
 
 .expect {
     width: 1922px;
-    height: 607px;
+    min-height: 607px;
     left: 0px;
     top: 0px;
     background: #EFEFEF;
@@ -196,3 +196,49 @@ hr {
     color: #4A4A4A;
     margin-top: 26px;
 }
+
+.optimization {
+    min-height: 547px;
+    padding: 108px 0 74px 0;
+}
+
+.optimization .optimization_header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-left: 391px;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    align-items: center;
+    color: #4A4A4A;
+    line-height: 27px;
+    margin-left: 391px;
+}
+
+.optimization_text span {
+    font-weight: bold;
+}
+
+.optimization .container {
+    position: relative;
+}
+
+.optimization img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: -240px;
+    z-index: -1;
+}
+
+
