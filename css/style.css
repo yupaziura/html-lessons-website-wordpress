@@ -378,3 +378,21 @@ hr {
     color: #4A4A4A;
     margin-top: 24px;
 }
+
+footer {
+    min-height: 169px;
+    background-color: #1A1A1A;
+    padding: 59px 0 69px 0;
+}
+
+.footer_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+    line-height: 21px;
+    color: #888888;
+
+}
