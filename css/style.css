@@ -336,3 +336,45 @@ hr {
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     padding: 24px 15px 24px 14px;
 }
+
+.lesson {
+    min-height: 514px;
+    padding: 81px 0 51px 0;
+}
+
+.lesson_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.lesson_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+    margin-top: 36px;
+}
+
+.lesson_date {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-top: 30px;
+}
+
+.lesson_text2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 24px;
+}
