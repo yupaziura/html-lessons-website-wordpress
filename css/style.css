@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: "Roboto";
+}
+
 .promo {
     height: 800px;
     background: url('../img//bg/main_bg.png') center center/cover no-repeat;
@@ -25,8 +29,6 @@
     color: white;
     display: block;
     margin: 0 auto;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
@@ -36,8 +38,6 @@
 }
 
 .title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 41px;
     line-height: 41px;
@@ -55,8 +55,6 @@ hr {
 .simple h2 {
     display: inline-block;
     vertical-align: middle;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 80px;
     line-height: 80px;
@@ -67,8 +65,6 @@ hr {
 }
 
 .title4 {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 41px;
     line-height: 41px;
@@ -79,8 +75,6 @@ hr {
 }
 
 .general_text {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 21px;
     line-height: 28px;
@@ -89,8 +83,7 @@ hr {
 }
 
 .free {
-    font-family: Roboto;
-    font-style: normal;
+
     font-weight: bold;
     font-size: 21px;
     line-height: 28px;
@@ -99,21 +92,13 @@ hr {
 
 .button_regiter {
     display: block;
-
-    font-family: RobotoCondensed;
+    font-family: Roboto Condensed;
     font-size: 21px;
     line-height: 24px;
-    /* identical to box height, or 114% */
-
-
     text-align: center;
     text-transform: uppercase;
-
     color: #FFFFFF;
-
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
-
-
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     border: 0;
@@ -123,12 +108,9 @@ hr {
 }
 
 .more_info {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 100;
     font-size: 15px;
     line-height: 24px;
-
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -150,8 +132,6 @@ hr {
 }
 
 .expect .expect_header {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 30px;
     text-align: center;
@@ -170,8 +150,6 @@ hr {
 }
 
 .expect .expect_desc {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 23px;
     margin-top: 18px;
@@ -188,8 +166,6 @@ hr {
 .expect .expect_text {
     text-align: center;
     width: 339px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     text-align: center;
@@ -203,8 +179,6 @@ hr {
 }
 
 .optimization .optimization_header {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 30px;
     align-items: center;
@@ -215,8 +189,6 @@ hr {
 
 .optimization .optimization_text {
     margin-top: 25px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 17px;
     align-items: center;
@@ -264,8 +236,6 @@ hr {
 }
 
 .finish_title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 30px;
     text-align: center;
@@ -274,8 +244,6 @@ hr {
 }
 
 .finish_text {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
@@ -308,8 +276,6 @@ hr {
 }
 
 .gift_text {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 30px;
     text-align: center;
@@ -327,8 +293,7 @@ hr {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     border: 0;
     margin: 51px auto;
-
-    font-family: RobotoCondensed;
+    font-family: Roboto Condensed;
     font-size: 21px;
     text-align: center;
     text-transform: uppercase;
@@ -349,8 +314,6 @@ hr {
 }
 
 .lesson_text {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 30px;
     text-align: center;
@@ -360,8 +323,6 @@ hr {
 }
 
 .lesson_date {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 36px;
     text-align: center;
@@ -371,8 +332,6 @@ hr {
 }
 
 .lesson_text2 {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 23px;
     text-align: center;
@@ -387,8 +346,6 @@ footer {
 }
 
 .link {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     text-align: center;
