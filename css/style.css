@@ -335,6 +335,7 @@ hr {
     color: #FFFFFF;
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     padding: 24px 15px 24px 14px;
+    cursor: pointer;
 }
 
 .lesson {
@@ -385,14 +386,17 @@ footer {
     padding: 59px 0 69px 0;
 }
 
-.footer_text {
+.link {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
     text-align: center;
-    text-decoration-line: underline;
     line-height: 21px;
     color: #888888;
+    display: block;
+}
 
+.link a:visited {
+    color: #888888;
 }
